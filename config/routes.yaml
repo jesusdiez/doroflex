@@ -1,3 +1,6 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+api:
+  resource: routes/routes_api.yml
+  prefix: api/v1
+
+listener:
+  resource: routes/routes_listener.yml
