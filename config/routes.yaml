@@ -1,6 +1,7 @@
 api:
   resource: routes/routes_api.yml
-  prefix: api/v1
+  prefix: ['api/v1', 'api']
 
 listener:
   resource: routes/routes_listener.yml
+  prefix: listener

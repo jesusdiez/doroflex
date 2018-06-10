@@ -1,4 +1,4 @@
 listener_index:
   path: /
-  controller: App\Listener\Controller\IndexGetController::__invoke
+  controller: App\Infrastructure\Interfaces\Listener\Controller\IndexGetController::__invoke
   methods:  [GET]

@@ -1,4 +1,4 @@
 api_index:
   path: /
-  controller: App\Api\Controller\IndexGetController::__invoke
+  controller: App\Infrastructure\Interfaces\Api\Controller\IndexGetController::__invoke
   methods:  [GET]
